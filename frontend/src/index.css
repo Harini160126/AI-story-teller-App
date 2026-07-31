@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color-scheme: light; } .dark { color-scheme: dark; }
+.glass { @apply bg-white/75 dark:bg-slate-900/70 backdrop-blur-xl border border-white/30 dark:border-slate-700/60 shadow-xl; }
+.btn { @apply inline-flex items-center justify-center rounded-full px-5 py-3 font-semibold transition focus:outline-none focus:ring-4 focus:ring-purple-300; }
